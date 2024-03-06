@@ -76,10 +76,8 @@ const Header = () => {
                         <a href="#intro" className="header__tab">About</a>
                         <a href="#tokenomics" className="header__tab">Features</a>
                         <a href="#taxes" className="header__tab">Tokenomics</a>
-                        <a href="#" target="_blank" className="header__tab">
-                            <div style={{marginRight: "5px"}} >Whitepaper</div>
-                            <img className="header__icon" src={Ext} alt="ext" />
-                        </a>
+                        <a href="#taxes" className="header__tab">The Dapp</a>
+                        <a href="#taxes" className="header__tab">Taxes</a>
                     </div>
                   </div>
                   <div className="header__right">
@@ -95,7 +93,8 @@ const Header = () => {
                         <a onClick={closeSideBar} className="menu-item" href="#intro">About</a>
                         <a onClick={closeSideBar} className="menu-item" href="#tokenomics">Features</a>
                         <a onClick={closeSideBar} className="menu-item" href="#taxes">Tokenomics</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">Whitepaper</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">The Dapp</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">Taxes</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">Start App</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">Buy Tokens</a>
                     </Menu>

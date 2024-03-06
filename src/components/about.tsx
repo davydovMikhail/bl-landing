@@ -13,6 +13,9 @@ const About = () => {
                         About
                     </div>
                     <div className="about__links">
+                        <a className="about__linkwp" href="http://google.com">
+                            Whitepaper
+                        </a>
                         <a className="about__link" href="http://google.com">
                             <img src={tg} alt="" />
                         </a>
@@ -24,10 +27,6 @@ const About = () => {
                 <div className="about__info">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor a maiores, fuga recusandae quos fugit, cumque et magni consequatur velit? Ipsam, voluptas modi exercitationem magnam voluptate iusto dolor natus. <span className="about__info_span">$BUBBLE</span>.
                 </div>
-                <a className="about__wp" href="http://google.com">
-                    <div style={{marginRight: "12px"}} >Whitepaper</div>
-                    <img className="" src={ext} alt="ext" />
-                </a>
             </div>  
         </>
     )
