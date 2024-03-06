@@ -550,43 +550,44 @@ body {
 }
 .tokenomics__blocks {
   width: 100%;
+  height: 341px;
   display: flex;
   justify-content: space-between;
   position: relative;
 }
 @media (max-width: 1000px) {
   .tokenomics__blocks {
-    height: 590px;
     flex-direction: column;
+    height: 600px;
   }
 }
-.tokenomics__block1 {
-  height: 341px;
+.tokenomics__block_liq {
+  height: 100%;
   width: 84.54%;
   border-radius: 32px 0px;
   background: var(--02, linear-gradient(24deg, #08B256 17.89%, #BBEC6C 87.18%));
   @media (max-width: 1000px) {
-    height: 492.78px; 
+    height: 84.54%; 
     width: 100%;
   }
 }
-.tokenomics__block2 {
-  height: 341px;
+.tokenomics__block_bank {
+  height: 100%;
   width: 9.39%;
   border-radius: 0px 32px;
   background: var(--02, linear-gradient(24deg, #08B256 17.89%, #BBEC6C 87.18%));
   @media (max-width: 1000px) {
-    height: 55.39px; 
+    height: 9.39%; 
     width: 100%;
   }
 }
-.tokenomics__block3 {
-  height: 341px;
+.tokenomics__block_team {
+  height: 100%;
   width: 4.85%;
   border-radius: 32px 0px;
   background: var(--02, linear-gradient(24deg, #08B256 17.89%, #BBEC6C 87.18%));
   @media (max-width: 1000px) {
-    height: 28.61px; 
+    height: 4.85%; 
     width: 100%;
   }
 }
