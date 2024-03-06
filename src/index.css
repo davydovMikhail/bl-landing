@@ -629,3 +629,61 @@ body {
 .tokenomics__percent_name {
   color: var(--white, #FFF);
 }
+
+.dapp {
+  max-width: 1320px;
+  height: 846px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 200px;
+  border-radius: 0px 64px;
+  border-bottom: 2px solid var(--02, #08B256);
+  border-left: 2px solid var(--02, #08B256);
+  background-image: url('./img/dapp.png');
+  background-position: center center;
+  background-repeat: no-repeat, no-repeat;
+  position: relative;
+  @media (max-width: 850px) {
+    background-image: url('./img/dapp1.png');
+    margin-top: 100px;
+  }
+  @media (max-width: 515px) {
+    background-image: url('./img/dapp2.png');
+  }
+}
+.dapp__text {
+  color: var(--White, var(--white, #FFF));
+  font-family: "Cy Grotesk";
+  font-size: 56px;
+  line-height: 64px; /* 114.286% */
+  position: absolute;
+  top: 64px;
+  left: 64px;
+  @media (max-width: 850px) {
+    /* font-size: 48px; */
+    top: 32px;
+    left: 32px;
+    background: var(--01, linear-gradient(104deg, #D63535 11.4%, #D256B2 51.66%, #3D43DE 96.42%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.dapp__button {
+  border-radius: 131.72px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15.806px 42.151px;
+  color: var(--2, var(--white, #FFF));
+  font-family: "Cy Grotesk";
+  font-size: 23.71px;
+  line-height: 42.151px;
+  position: absolute;
+  bottom: 64px;
+  left: 64px;
+  @media (max-width: 850px) {
+    bottom: 32px;
+    left: 32px;
+    background: rgba(255, 255, 255, 0.3);
+    
+  }
+}

@@ -3,6 +3,7 @@ import Bubble from './components/bubble';
 import About from './components/about';
 import Features from './components/features';
 import Tokenomics from './components/tokenomics';
+import Dapp from './components/dapp';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <About />
         <Features />
         <Tokenomics />
+        <Dapp />
         
       </div>
     </main>
