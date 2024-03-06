@@ -553,7 +553,9 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
-  @media (max-width: 1000px) {
+}
+@media (max-width: 1000px) {
+  .tokenomics__blocks {
     height: 590px;
     flex-direction: column;
   }
