@@ -554,7 +554,7 @@ body {
   justify-content: space-between;
   position: relative;
   @media (max-width: 1000px) {
-    height: 650px;
+    height: 590px;
     flex-direction: column;
   }
 }
@@ -564,7 +564,7 @@ body {
   border-radius: 32px 0px;
   background: var(--02, linear-gradient(24deg, #08B256 17.89%, #BBEC6C 87.18%));
   @media (max-width: 1000px) {
-    height: 84.54%;
+    height: 492.78px; 
     width: 100%;
   }
 }
@@ -574,7 +574,7 @@ body {
   border-radius: 0px 32px;
   background: var(--02, linear-gradient(24deg, #08B256 17.89%, #BBEC6C 87.18%));
   @media (max-width: 1000px) {
-    height: 9.39%;
+    height: 55.39px; 
     width: 100%;
   }
 }
@@ -584,7 +584,7 @@ body {
   border-radius: 32px 0px;
   background: var(--02, linear-gradient(24deg, #08B256 17.89%, #BBEC6C 87.18%));
   @media (max-width: 1000px) {
-    height: 4.85%;
+    height: 28.61px; 
     width: 100%;
   }
 }
