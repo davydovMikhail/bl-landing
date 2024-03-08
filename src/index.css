@@ -248,10 +248,6 @@ body {
   line-height: 32px; 
   padding: 17px 32px;
   margin-right: 8px;
-  @media (max-width: 1611px) {
-    padding: 14.5px 14px;
-    font-size: 14px;
-  } 
 }
 .buy__button {
   color: var(--2, var(--white, #FFF));
@@ -261,11 +257,17 @@ body {
   padding: 17px 32px;
   border-radius: 100px;
   background: var(--13443, linear-gradient(104deg, #D63535 11.4%, #D256B2 51.66%, #3D43DE 96.42%));
-  @media (max-width: 1611px) {
+}
+@media (max-width: 1611px) {
+  .buy__button {
     padding: 14.5px 14px;
     font-size: 14px;
-  } 
-}
+  }
+  .start__button {
+    padding: 14.5px 14px;
+    font-size: 14px;
+  }
+} 
 .mob-menu {
   display: none;
 }
@@ -577,6 +579,8 @@ body {
   border-radius: 0px 32px;
   background: var(--02, linear-gradient(24deg, #08B256 17.89%, #BBEC6C 87.18%));
   @media (max-width: 1000px) {
+    margin-top: 5px;
+    margin-bottom: 5px;
     height: 9.39%; 
     width: 100%;
   }
@@ -687,3 +691,93 @@ body {
     
   }
 }
+
+.taxes {
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  @media (max-width: 1250px) {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+}
+.taxes__title {
+  color: var(--White, var(--white, #FFF));
+  font-family: "Cy Grotesk";
+  font-size: 56px;
+  line-height: 64px; /* 114.286% */
+  @media (max-width: 1250px) {
+    margin-bottom: 100px;
+  }
+  @media (max-width: 700px) {
+    font-size: 38px;
+  }
+}
+.taxes__items {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 920px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.taxes__item {
+  margin-bottom: 60px;
+}
+.taxes__img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  background-image: url('./img/bubble.gif');
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 80px;
+  @media (max-width: 520px) {
+    width: 250px;
+    height: 250px;
+  } 
+}
+.taxes__img_buy {
+  filter: blur(26.682004928588867px);
+}
+.taxes__img_sell {
+  transform: rotate(90deg);
+  filter: blur(27.09126091003418px);
+}
+.taxes__blur {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  backdrop-filter: blur(20px);
+  background: transparent;
+}
+.taxes__text {
+  color: var(--White, var(--white, #FFF));
+  font-family: "Cy Grotesk";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: center;
+}
+.taxes__buy {
+  background: var(--02, linear-gradient(24deg, #08B256 17.89%, #BBEC6C 87.18%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.taxes__sell {
+  background: var(--01, linear-gradient(104deg, #D63535 11.4%, #D256B2 51.66%, #3D43DE 96.42%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 

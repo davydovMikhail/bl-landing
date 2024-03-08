@@ -81,8 +81,8 @@ const Header = () => {
                     </div>
                   </div>
                   <div className="header__right">
-                    <a href="#" target='_blank' className="start__button">Start App</a>
-                    <a href="" target='_blank' className="buy__button">Buy Tokens</a>
+                    <a href="https://platform.coinbubble.xyz/" target='_blank' className="start__button">Start DApp</a>
+                    <a href="https://app.uniswap.org/swap?inputCurrency=ETH" target='_blank' className="buy__button">Buy Tokens</a>
                   </div>
                 <div className='mob-menu'>
                     <Menu
@@ -95,8 +95,8 @@ const Header = () => {
                         <a onClick={closeSideBar} className="menu-item" href="#taxes">Tokenomics</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">The Dapp</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">Taxes</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">Start App</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">Buy Tokens</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://platform.coinbubble.xyz/">Start DApp</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://app.uniswap.org/swap?inputCurrency=ETH">Buy Tokens</a>
                     </Menu>
                 </div>
             </div>
