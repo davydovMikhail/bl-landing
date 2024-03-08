@@ -5,6 +5,7 @@ import Features from './components/features';
 import Tokenomics from './components/tokenomics';
 import Dapp from './components/dapp';
 import Taxes from './components/taxes';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Tokenomics />
         <Dapp />
         <Taxes />
-        
+        <Footer />
       </div>
     </main>
   );

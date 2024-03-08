@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Logo from "../img/logo.svg";
-import Ext from "../img/ext.svg";
 import { slide as Menu } from 'react-burger-menu';
 
 const Header = () => {
@@ -73,10 +72,10 @@ const Header = () => {
                   <div className="header__left">
                     <img src={Logo} className="header__logo" />
                     <div className="header__bar">
-                        <a href="#intro" className="header__tab">About</a>
-                        <a href="#tokenomics" className="header__tab">Features</a>
-                        <a href="#taxes" className="header__tab">Tokenomics</a>
-                        <a href="#taxes" className="header__tab">The Dapp</a>
+                        <a href="#about" className="header__tab">About</a>
+                        <a href="#features" className="header__tab">Features</a>
+                        <a href="#tokenomics" className="header__tab">Tokenomics</a>
+                        <a href="#dapp" className="header__tab">The Dapp</a>
                         <a href="#taxes" className="header__tab">Taxes</a>
                     </div>
                   </div>
@@ -90,11 +89,11 @@ const Header = () => {
                         onOpen={handleIsOpen}
                         onClose={handleIsOpen}
                         styles={styles} right>
-                        <a onClick={closeSideBar} className="menu-item" href="#intro">About</a>
-                        <a onClick={closeSideBar} className="menu-item" href="#tokenomics">Features</a>
-                        <a onClick={closeSideBar} className="menu-item" href="#taxes">Tokenomics</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">The Dapp</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="#">Taxes</a>
+                        <a onClick={closeSideBar} className="menu-item" href="#about">About</a>
+                        <a onClick={closeSideBar} className="menu-item" href="#features">Features</a>
+                        <a onClick={closeSideBar} className="menu-item" href="#tokenomics">Tokenomics</a>
+                        <a onClick={closeSideBar} className="menu-item" href="#dapp">The Dapp</a>
+                        <a onClick={closeSideBar} className="menu-item" href="#taxes">Taxes</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://platform.coinbubble.xyz/">Start DApp</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://app.uniswap.org/swap?inputCurrency=ETH">Buy Tokens</a>
                     </Menu>

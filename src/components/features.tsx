@@ -7,6 +7,7 @@ const Features = () => {
 
     return (
         <>
+          <a id="features" className="anchor" href=""></a>
             <div className="features">
           <div className="features__title">
             Features

@@ -1,5 +1,4 @@
 import React from 'react';
-import ext from "../img/ext.svg";
 import x from "../img/x.svg";
 import tg from "../img/tg.svg";
 
@@ -7,6 +6,7 @@ const About = () => {
 
     return (
         <>
+            <a id="about" className="anchor" href=""></a>
             <div className="about">
                 <div className="about__title">
                     <div className="about__text">

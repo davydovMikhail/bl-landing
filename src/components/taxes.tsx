@@ -4,6 +4,7 @@ const Taxes = () => {
 
     return (
         <>
+        <a id="taxes" className="anchor" href=""></a>
          <div className="taxes">
           <div className="taxes__title">
             Taxes

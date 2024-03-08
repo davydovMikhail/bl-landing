@@ -781,3 +781,72 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 } 
+
+.footer {
+  border-radius: 32px 32px 0 0 ;
+  background: linear-gradient(180deg, #1C1C1C 0%, #000 100%);
+  padding: 48px 64px 64px 64px;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  @media (max-width: 730px) {
+    padding: 24px 32px 32px 32px;
+  } 
+  @media (max-width: 451px) {
+    padding: 24px 10px 32px 10px;
+  } 
+}
+.footer__logo {
+  max-width: 193px;
+  margin-bottom: 20px;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 730px) {
+    flex-direction: column;
+  } 
+}
+.footer__links {
+  display: flex;
+}
+.footer__link {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+  @media (max-width: 451px) {
+    width: 48px;
+    height: 48px;
+  } 
+}
+.footer__wp {
+  border-radius: 1000px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px 32px;
+  color: var(--2, var(--white, #FFF));
+  font-family: "Cy Grotesk";
+  font-size: 18px;
+  line-height: 32px; 
+  height: 56px;
+  @media (max-width: 451px) {
+    height: 48px;
+    padding: 8px 24px;
+  } 
+}
+.footer__text {
+  color: var(--White, var(--white, #FFF));
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 200% */
+  opacity: 0.3;
+  margin-top: 48px;
+  @media (max-width: 700px) {
+    margin-top: 24px;
+  } 
+}

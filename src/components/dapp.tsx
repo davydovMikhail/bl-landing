@@ -4,6 +4,7 @@ const Dapp = () => {
 
     return (
         <>
+        <a id="dapp" className="anchor" href=""></a>
             <div className="dapp">
                 <div className="dapp__text">
                     The <br /> Dapp

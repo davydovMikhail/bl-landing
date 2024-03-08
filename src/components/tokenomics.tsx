@@ -4,6 +4,7 @@ const Tokenomics = () => {
 
     return (
         <>
+        <a id="tokenomics" className="anchor" href=""></a>
         <div className="tokenomics">
             <div className="tokenomics__title">
                 Tokenomics
