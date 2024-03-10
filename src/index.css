@@ -274,12 +274,12 @@ body {
 .bg-wrapper {
   display: block;
   margin: 0 auto;
-  background-image: url('./img/circles.svg'), url('./img/circles.svg');
-  background-position: right 152px, left 152px;
+  background-image: url('./img/circles.svg'), url('./img/circles.svg'), url('./img/circles.svg'), url('./img/blur1.png'), url('./img/circles.svg'), url('./img/blur2.png'), url('./img/circles.svg');
+  background-position: right 152px, left 152px, left 36%, right 30%, right 60%, left 73%, left bottom;
   background-repeat: no-repeat, no-repeat;
   @media (max-width: 971px) {
-    background-image: url('./img/circles.svg');
-    background-position: center 152px;
+    background-image: url('./img/circles.svg'), url('./img/circles.svg'), url('./img/blur1.png'), url('./img/circles.svg'), url('./img/blur2.png'), url('./img/circles.svg');
+    background-position: center 152px, left 26%, right 25%, right 60%, left 85%, left bottom;
     background-repeat: no-repeat;
   } 
 }
