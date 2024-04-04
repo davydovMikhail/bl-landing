@@ -20,7 +20,7 @@ const Features = () => {
                   Earn Tokens
                 </div>
                 <div className="features__text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus autem veritatis porro delectus consequatur repellat debitis enim pariatur rem officiis.
+                The Bubble Coin platform provides its most active users with a profitable opportunity to earn money by actively participating in the distribution of the product.
                 </div>
               </div>
             </div>
@@ -32,7 +32,7 @@ const Features = () => {
                   Upgrade Bank
                 </div>
                 <div className="features__text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus autem veritatis porro delectus consequatur repellat debitis enim pariatur rem officiis.
+                  Don't miss the opportunity to spend your $BUBBLE coins to increase the size of the pot to collect even more $BUBBLE coins.
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ const Features = () => {
                   Boost Recovery
                 </div>
                 <div className="features__text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus autem veritatis porro delectus consequatur repellat debitis enim pariatur rem officiis.
+                  Boosting the recovery rate not only accelerates your earnings but also significantly reduces the waiting time for your bank to accumulate.
                 </div>
               </div>
             </div>

@@ -647,13 +647,6 @@ body {
   background-position: center center;
   background-repeat: no-repeat, no-repeat;
   position: relative;
-  @media (max-width: 850px) {
-    background-image: url('./img/dapp1.png');
-    margin-top: 100px;
-  }
-  @media (max-width: 515px) {
-    background-image: url('./img/dapp2.png');
-  }
 }
 .dapp__text {
   color: var(--White, var(--white, #FFF));

@@ -25,7 +25,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about__info">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor a maiores, fuga recusandae quos fugit, cumque et magni consequatur velit? Ipsam, voluptas modi exercitationem magnam voluptate iusto dolor natus. <span className="about__info_span">$BUBBLE</span>.
+                    Introducing the revolutionary Bubble Coin platform, where staking your coins has never been easier. Unlike traditional staking models that require freezing your coins on a contract, with Bubble Coin, all you need to do is keep your <span className="about__info_span">$BUBBLE</span> coins in your wallet balance to receive new coins.
                 </div>
             </div>  
         </>
