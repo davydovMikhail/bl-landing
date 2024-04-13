@@ -565,23 +565,23 @@ body {
 }
 .tokenomics__block_liq {
   height: 100%;
-  width: 84.54%;
+  width: 75.54%;
   border-radius: 32px 0px;
   background: var(--02, linear-gradient(24deg, #08B256 17.89%, #BBEC6C 87.18%));
   @media (max-width: 1000px) {
-    height: 84.54%; 
+    height: 75.54%; 
     width: 100%;
   }
 }
 .tokenomics__block_bank {
   height: 100%;
-  width: 9.39%;
+  width: 18.39%;
   border-radius: 0px 32px;
   background: var(--02, linear-gradient(24deg, #08B256 17.89%, #BBEC6C 87.18%));
   @media (max-width: 1000px) {
     margin-top: 5px;
     margin-bottom: 5px;
-    height: 9.39%; 
+    height: 18.39%; 
     width: 100%;
   }
 }

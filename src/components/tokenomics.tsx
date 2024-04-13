@@ -16,7 +16,7 @@ const Tokenomics = () => {
                 <div className="tokenomics__percents">
                     <div className="tokenomics__percent">
                         <div className="tokenomics__percent_value">
-                        84%
+                        75%
                         </div>
                         <div className="tokenomics__percent_name">
                         Liquidity
@@ -24,7 +24,7 @@ const Tokenomics = () => {
                     </div>
                     <div className="tokenomics__percent">
                         <div className="tokenomics__percent_value">
-                        10%
+                        20%
                         </div>
                         <div className="tokenomics__percent_name">
                         Bank
@@ -32,7 +32,7 @@ const Tokenomics = () => {
                     </div>
                     <div className="tokenomics__percent">
                         <div className="tokenomics__percent_value">
-                        6%
+                        5%
                         </div>
                         <div className="tokenomics__percent_name">
                         Team
