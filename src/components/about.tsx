@@ -13,13 +13,13 @@ const About = () => {
                         About
                     </div>
                     <div className="about__links">
-                        <a className="about__linkwp" href="http://google.com">
+                        <a target='_blank' className="about__linkwp" href="https://bubbledocs.gitbook.io/bubble/">
                             Whitepaper
                         </a>
-                        <a className="about__link" href="http://google.com">
+                        <a target='_blank' className="about__link" href="https://t.me/BubbleOnEth">
                             <img src={tg} alt="" />
                         </a>
-                        <a className="about__link" href="http://google.com">
+                        <a target='_blank' className="about__link" href="https://twitter.com/BubbleOnETH">
                             <img src={x} alt="" />
                         </a>
                     </div>

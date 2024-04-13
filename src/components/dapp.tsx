@@ -9,7 +9,7 @@ const Dapp = () => {
                 <div className="dapp__text">
                     The <br /> Dapp
                 </div>
-                <a href="https://platform.coinbubble.xyz/" className="dapp__button">
+                <a target='_blank' href="https://platform.coinbubble.xyz/" className="dapp__button">
                     Start DApp
                 </a>
             </div>

@@ -11,13 +11,13 @@ const Footer = () => {
                 <div className="footer__content">
                     <img className="footer__logo" src={Logo} alt="" />
                     <div className="footer__links">
-                    <a href="#" className="footer__wp">
+                    <a target='_blank' href="https://bubbledocs.gitbook.io/bubble/" className="footer__wp">
                         Whitepaper
                     </a>
-                    <a href="#" className="footer__link">
+                    <a target='_blank' href="https://t.me/BubbleOnEth" className="footer__link">
                         <img src={Tg} alt="tg" />
                     </a>
-                    <a href="#" className="footer__link">
+                    <a target='_blank' href="https://twitter.com/BubbleOnETH" className="footer__link">
                         <img src={X} alt="x" />
                     </a>
                     </div>

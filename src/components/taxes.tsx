@@ -15,7 +15,7 @@ const Taxes = () => {
                 <div className="taxes__blur"></div>
               </div>
               <div className="taxes__text taxes__buy">
-                4%
+                5%
               </div>
               <div className="taxes__text">
                 Buy
@@ -26,7 +26,7 @@ const Taxes = () => {
                 <div className="taxes__blur"></div>
               </div>
               <div className="taxes__text taxes__sell">
-                4%
+                5%
               </div>
               <div className="taxes__text">
                 Sell
